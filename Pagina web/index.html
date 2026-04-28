@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Rey de frutas</title>
+
+    <style>
+        body{
+            background: Linear-gradient(black,darkgreen) ;
+            min-height: 100vh;
+            margin: 0;
+            font-family: "fantasy";
+            text-align: center;
+            padding-top: 70px;
+            color: white;
+        }
+        button{
+            background-color: darkgreen;
+            color: white;
+            padding: 20px 45px;
+            border: none;
+            border-radius: 18px;
+            font-size: 20px;
+            font-weight: bolder;
+            cursor: pointer;
+            box-shadow: 0 5px black;
+            transition: 0.3s;
+        }
+        button:hover{
+            background-color: forestgreen;
+            transform: translateY(2px);
+        }
+        p{
+            font-size: 22px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+<h1>El lanzaguinsates enojon</h1>
+<p> !Si le picas al boton se emputa¡</p>
+
+<button onclick="mostrargif()">No Preciona aqui</button>
+<div id="contenedor"></div>
+
+
+<script>
+    function mostrargif() {
+        const divContenedor = document.getElementById('contenedor');
+        divContenedor.innerHTML = '<img src="RepetidoraGIF.gif" width="250" <br> ' +
+            '<p>!Apoco si muy verga we¡</p>'+
+            '<p>El tyzon, el ferni y el gera me la pelan, alv </p>'+
+            '<p>!ARRIBA EL CRUZ AZUL!</p>';
+    }
+</script>
+
+
+</body>
+</html>
